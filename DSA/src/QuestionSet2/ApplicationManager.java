@@ -12,7 +12,7 @@ public class ApplicationManager {
 
             String com = commands.get(k);
             String[] commandArr = com.split(" ");
-                String op = commandArr[0];
+            String op = commandArr[0];
             String type = "";
                 if(commandArr.length > 1) {
                     type = commandArr[1];
